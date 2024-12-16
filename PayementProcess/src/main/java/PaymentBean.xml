@@ -5,21 +5,12 @@
   https://www.springframework.org/schema/beans/spring-beans.xsd">
   
   
+ 
+ 
+ 
+ 
   
-   <bean id="credit" class="PaymentSystem.test.CreditCardPayment" />
-  <bean id="payment" class="PaymentSystem.test.DebitCardPayment" primary="true"/> 
- <!--  <bean id="paymentProcess" class="PaymentSystem.test.PaymentType" />  --> 
-  
-   <!-- <constructor-arg name="payment" ref="credit"></constructor-arg> -->
-   
-   
-   <!-- autowiring byName -->
-  <!-- <bean id="paymentProcess" class="PaymentSystem.test.PaymentType" autowire="byName" /> -->
-  
-  <!-- <bean id="credit" class="PaymentSystem.test.CreditCardPayment" /> -->
-  
-  <!-- autowiring byType -->
-  <bean id="paymentProcess" class="PaymentSystem.test.PaymentType" autowire="byType" />
+
 
   
   </beans>
